@@ -1,0 +1,45 @@
+
+.container {
+	width: 650px;
+	height: 680px;
+}
+
+h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.form-group {
+	margin: 20px;
+}
+
+.submit-button {
+	background-color: red;
+	margin: 12px 20px;
+}
+
+.card {
+	margin: 24px;
+}
+
+.cards {
+	width: 800px;
+	display: flex;
+}
+
+.actor {
+	width: 200px;
+}
+
+.description {
+	max-width: 322px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.description:hover {
+	cursor: pointer;
+	white-space: normal;
+	overflow: visible;
+}
